@@ -1,0 +1,112 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #E5EFFA;
+  padding: 3% 3% 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+img{
+  width: 50px;
+}
+
+p{
+  margin:0;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5E6778;
+}
+
+.message:hover{
+  text-decoration: none;
+  background-color: #E5EFFA;
+}
+
+.name-link{
+  color: #1C202B;
+}
+
+a{
+  color: #5E6778;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0A317B;
+}
+
+.grp-link{
+  color: #5E6778;
+}
+
+.card-header {
+  background-color:white;
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.container{
+  width: 55%;
+  background-color: white;
+  padding: 25px 20px 0 20px;
+  border:none;
+  border-radius: 10px;
+  clear: both;
+}
+
+.badge{
+  color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  background-color: #0A317B;
+}
+
+.title-page{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+}
+
+.mark-as-readed{
+  position: absolute;
+  right: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+}
+
+
+.unread-notif{
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #F7FAFD;
+  border-radius: 5px;
+}
+
+
+.dot-notif {
+  height: 9px;
+  width: 9px;
+  background-color: #F65351;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 1px 1px;
+}
+
+.message{
+  padding: 15px;
+}
+
+.footer{
+  margin: 30px
+}
+
+@media (max-width: 768px) {
+
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+}
